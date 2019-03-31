@@ -1,0 +1,75 @@
+<html>
+<head>
+  <title>Questionnaire form </title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+     <link href="css/styles.css" rel="stylesheet" type="text/css">
+
+</head>
+<body background="back6.jpg">
+  <u>
+    <h1><strong>PoP Quiz!</strong></h1>
+  </u>
+    <div class="container-fluid">
+      <div class ="row no-gutter">
+        <div class="para">
+          
+          <p class="test">The<strong id="test"> Pop quiz </strong>below will be able to test your knowledege and understanding of the various programming languages out there. When you answer the questions given you will be greaded at the end of it.<br>Through this you will be able to know how much you now and you can use this as a chance for motivation and also a chance for you to search more information about the various coding languages out there. Have fun!
+          </p>
+          <div id="result"><p id="message"></p></div>
+        </div>
+        <div class="form">
+          <form id="myForm" name="myForm" action="index.html" method="POST">
+
+            <p>Which of the following function of string object creates a string to be displayed as bold as if it were in a b tag?</p>
+            <input type="radio" name="firstQuestion" value="1">1. Anchor()<br>
+            <input type="radio" name="firstQuestion" value="2">2. Big()<br>
+            <input type="radio" name="firstQuestion" value="3">3. Blink()<br>
+            <input type="radio" name="firstQuestion" value="4">4. Bold()<br>
+            <div class="para">
+            <p>Explanation:bold() − Creates a string to be displayed as bold as if it were in a b tag.</p>
+          </div>
+            <button class="btn1">close answer!</button>
+            <button class="btn2">open answer!</button>
+            <br>
+            <p>Which of the following function of Array object returns a string representing the array and its elements?</p>
+            <input type="radio" name="secondQuestion" value="1">1. toSource() <br>
+            <input type="radio" name="secondQuestion" value="2">1. sort() <br>
+            <input type="radio" name="secondQuestion" value="3">3. toString() <br>
+            <input type="radio" name="secondQuestion" value="4">4. splice() <br>
+
+            <p>Which of the following is correct about features of JavaScript?</p>
+            <input type="radio" name="thirdQuestion" value="1">1. JavaScript is a lightweight, interpreted programming language.<br>
+            <input type="radio" name="thirdQuestion" value="2">2. JavaScript is designed for creating network-centric applications. <br>
+            <input type="radio" name="thirdQuestion" value="3">3. JavaScript is complementary to and integrated with Java<br>
+            <input type="radio" name="thirdQuestion" value="4">4. All of the above.<br>
+
+            <p>Which of the following function of Number object defines how many total digits to display of a number?</p>
+            <input type="radio" name="fourthQuestion" value="1">1. toExponential()<br>
+            <input type="radio" name="fourthQuestion" value="2">2. toFixed() <br>
+            <input type="radio" name="fourthQuestion" value="3">3. toLocaleString<br>
+            <input type="radio" name="fourthQuestion" value="4">4. toPrecision()<br>
+
+            <p>Which built-in method returns the calling string value converted to lower case? </p>
+            <input type="radio" name="fifthQuestion" value="1">1. toLowerCase()<br>
+            <input type="radio" name="fifthQuestion" value="2">2. toLower()<br>
+            <input type="radio" name="fifthQuestion" value="3">3. changeCase()<br>
+            <input type="radio" name="fifthQuestion" value="4">4. None of the above<br>
+            <br>
+
+            <input type="button" class="btn" onClick="quiz();" value="SUBMIT">
+            <script src="js/scripts.js"></script>
+          </form>
+
+        </div>
+      </div>
+    </div>
+
+
+</body>
+
+</html>
