@@ -33,3 +33,11 @@ function quiz(){
   document.getElementById("result").style.visibility = "visible";
   e.preventDefault();
 }
+$(document).ready(function(){
+  $(".btn1").click(function(){
+    $(".para").slideUp()
+  });
+  $(".btn2").click(function(){
+    $(".para").slideDown();
+  });
+});
