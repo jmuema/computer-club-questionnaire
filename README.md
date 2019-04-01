@@ -10,7 +10,7 @@ A web browser. Most rated; Chrome and Firefox
 Application Link to be run:https://jmuema.github.io/computer-club-questionnaire/
 ## Installation
 Setup locally by cloning this repository using the procedure below:
-git clone https://github.com/jmuema/computer-club-questionnaire.git
+git clone https://github.com/jmuema/computer-club-questionnaire.git<br>
 cd quiz-board
 code .
 ## Breakdown of project
