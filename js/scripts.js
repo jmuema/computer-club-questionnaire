@@ -1,9 +1,4 @@
-$(function() {
-  $("#toggleThis").click(function() {
-    $("#content").slideToggle(fast);
-  });
-});
-
+/*this is the back end logic*/
 function quiz(){
 
   var score = 0;
@@ -39,3 +34,9 @@ function quiz(){
   document.getElementById("result").style.visibility = "visible";
   e.preventDefault();
 }
+//this is the front end logic//
+$(function() {
+  $("#toggleThis").click(function() {
+    $("#content").slideToggle(fast);
+  });
+});
