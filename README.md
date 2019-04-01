@@ -16,7 +16,7 @@ Through this site one will be able to access themselves and the knowledge of the
  #### output: percentage of correct answers
  
  ## Link to github pages
- ### https://github.com/jmuema/computer-club-questionnaire.git
+ ### https://jmuema.github.io/computer-club-questionnaire/
 
 ## Lincense and copyright
 
