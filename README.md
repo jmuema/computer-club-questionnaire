@@ -1,10 +1,18 @@
 # computer-club-questionnaire
-Joseph Muema Mwangangi
 ## Description of Project
-Through this site one will be able to access themselves and the knowledge of the various coding languages. At the end of the project one will be able to get the results of the test.  
+Through this site  allows the user to take a multiple choice test and the results of the test displayed on the webpage on submission of the answers.
+## Author
+Joseph Muema Mwangangi
 ## Setup instructions
-
-
+Have a proper internet connection
+A Mobile phone, PC, Desktop or any other supported PDA.
+A web browser. Most rated; Chrome and Firefox
+Application Link to be run:https://jmuema.github.io/computer-club-questionnaire/
+## Installation
+Setup locally by cloning this repository using the procedure below:
+git clone https://github.com/jmuema/computer-club-questionnaire.git
+cd quiz-board
+code .
 ## Breakdown of project
  writing of the html code to displayed by browser. Did this first since its easy and fast.<br/>
  #### Inputs: radio button1, radio button2, radio button3, radio button4, radio button5
@@ -14,10 +22,21 @@ Through this site one will be able to access themselves and the knowledge of the
  using if else statements to around the program which in return works perfectly.<br/>
  #### inputs: radio button1, radio button2, radio button3, radio button4, radio button5
  #### output: percentage of correct answers
+ ## Technologies Used
+ **Languages**
+ * JQ
+ * JS
+ * HTML
+ * CSS
+ * bootsrap
  
- ## Link to github pages
- ### https://jmuema.github.io/computer-club-questionnaire/
-
+**Aplications**
+* Code 
+* Terminal
+* Github
+ ## contact information
+ * Tel: +25470661789
+* Email: jmuema95@gmail.com
 ## Lincense and copyright
 
 MIT License
