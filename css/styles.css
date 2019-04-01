@@ -69,3 +69,7 @@ padding: 10px;
 width: 30%;
 border: 1px solid black;
 }
+.scroll {
+  font-size: 80px;
+  color: orangered;
+}
