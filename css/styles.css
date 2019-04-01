@@ -58,3 +58,14 @@ text-align: center;
   color: orangered;
   font-size: 50px;
 }
+#content {
+  display: none;
+  padding: 15px;
+  width: 30%;
+
+}
+#toggleThis {
+padding: 10px;
+width: 30%;
+border: 1px solid black;
+}
