@@ -22,9 +22,6 @@ code .
  using if else statements to around the program which in return works perfectly.<br/>
  #### inputs: radio button1, radio button2, radio button3, radio button4, radio button5
  #### output: percentage of correct answers
- 
- ## Link to github pages
- ### https://jmuema.github.io/computer-club-questionnaire/
  ## Technologies Used
  **Languages**
  * JQ
