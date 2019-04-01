@@ -35,9 +35,9 @@ function quiz(){
 }
 $(document).ready(function(){
   $(".btn1").click(function(){
-    $("").slideUp();
+    $("para2").slideUp(hide);
   });
   $(".btn2").click(function(){
-    $("p").slideDown();
+    $("para2").slideDown(show);
   });
 });
