@@ -1,3 +1,9 @@
+$(function() {
+  $("#toggleThis").click(function() {
+    $("#content").slideToggle(fast);
+  });
+});
+
 function quiz(){
 
   var score = 0;
@@ -33,11 +39,3 @@ function quiz(){
   document.getElementById("result").style.visibility = "visible";
   e.preventDefault();
 }
-$(document).ready(function(){
-  $(".btn1").click(function(){
-    $("para2").slideUp(hide);
-  });
-  $(".btn2").click(function(){
-    $("para2").slideDown(show);
-  });
-});
